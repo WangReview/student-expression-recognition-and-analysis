@@ -57,7 +57,7 @@ while cap.isOpened():
             top1_label = pred.names[pred.probs.top1]  #  ml-citation{ref="1,8" data="citationList"}
             top1_conf = pred.probs.top1conf.item()  # 
             conf1 = "{:.2g}".format(top1_conf)  
-            # print(f"预测类别：{top1_label}，置信度：{top1_conf:.2f}")
+          
             cv2.rectangle(frame, (x1,y1), (x2,y2), (0, 255, 0), 1)
             cv2.putText(frame, top1_label, ((x1, y1 +20)), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (0, 0, 250),1, cv2.LINE_AA)
 
