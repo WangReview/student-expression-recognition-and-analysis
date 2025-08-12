@@ -2,6 +2,11 @@
 
 This study is based on computer vision for real-time facial detection and expression recognition methods, calculating students' head up rate, expression score, and emotion category in class, in order to analyze students' classroom focus, participation, and classroom emotions. This method can serve as an important reference for classroom teaching evaluation, promote the high-quality development of classroom teaching, inject new vitality into the intelligent and precise development of education, and has broad application prospects.
 
+
+The experimental environment uses Ubuntu 18.04 operating system, pytorch architecture, and NVIDIA RTX 3090 graphics card. The specific experimental configuration is shown in Table 1.
+Table 1. Experimental environment configuration
+
+
 ## 🛠️ Installation
 
 [![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/)
