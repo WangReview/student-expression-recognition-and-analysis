@@ -13,19 +13,19 @@ import os
 def read_from_excel(sheet_name='Sheet1.xlsx'):
     try:
         data = pd.read_excel(sheet_name)
-        print(f"成功从 {sheet_name} 读取数据")
+        print(f"succeed {sheet_name} reading data")
 
         face_detect = data['face_detect'].tolist()
         norm_scores = data['norm_scores'].tolist()
         expressions_3 = data['expressions_3'].tolist()
-        # 将['[3, 26, 0]', '[13, 27, 3]', '[9, 26, 4]']  [[3, 26, 0], [13, 27, 3], [9, 26, 4]]
+        # ['[3, 26, 0]', '[13, 27, 3]', '[9, 26, 4]']  [[3, 26, 0], [13, 27, 3], [9, 26, 4]]
         expressions_3_result = [ast.literal_eval(item) for item in expressions_3]
         column_expressions_3_sums = [sum(col) for col in zip(*expressions_3_result)]
 
 
         return face_detect, norm_scores, expressions_3_result, column_expressions_3_sums
     except Exception as e:
-        print(f"读取文件时出错: {e}")
+        print(f"Error: {e}")
         return None
 
 
@@ -52,7 +52,7 @@ def write_to_excel(positive_expression, neutral_expression, negative_expression,
 
     df.to_excel(excel_writer=sheet_name, index=False)
 
-    print(f"数据已成功写入 {sheet_name}")
+    print(f"succeed write {sheet_name}")
 
 
 current_path = os.getcwd()  
