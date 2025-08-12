@@ -5,6 +5,13 @@ This study is based on computer vision for real-time facial detection and expres
 
 The experimental environment uses Ubuntu 18.04 operating system, pytorch architecture, and NVIDIA RTX 3090 graphics card. The specific experimental configuration is shown in Table 1.
 Table 1. Experimental environment configuration
+CPU	20 vCPU AMD EPYC 7642 48-Core
+GPU	NVIDIA RTX 3090(24GB)
+System	Ubuntu18. 04
+Language	Python3.8
+CUDA	CUDA 11.0
+cuDNN	cuDNN 8.0
+Pytorch	Pytorch 1.7.1
 
 
 ## 🛠️ Installation
