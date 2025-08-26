@@ -1,4 +1,4 @@
-# 视频检测
+# Video face detect and expression recognition
 
 from ultralytics import YOLO
 import cv2
