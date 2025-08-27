@@ -1,9 +1,6 @@
 # 📚 1、Title: student expression recognition and analysis
 
 This study is based on computer vision for real-time facial detection and expression recognition methods, calculating students' head up rate, expression score, and emotion category in class, in order to analyze students' classroom focus, participation, and classroom emotions. This method can serve as an important reference for classroom teaching evaluation, promote the high-quality development of classroom teaching, inject new vitality into the intelligent and precise development of education, and has broad application prospects.
-## Graphical Abstract
-<img width="6380" height="1870" alt="1-系统结构图" src="https://github.com/user-attachments/assets/6c7f9486-6cc1-41b6-ab7a-19eb8494d48d" />
-
 
 # 2、Description
 
@@ -48,6 +45,9 @@ $ pip install pyyaml
 $ pip install tqdm  
 
 # 7、Methodology
+## Graphical Abstract
+<img width="6380" height="1870" alt="1-系统结构图" src="https://github.com/user-attachments/assets/6c7f9486-6cc1-41b6-ab7a-19eb8494d48d" />
+
 ### Model Training
 $ python class_train.py
 
