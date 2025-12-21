@@ -8,17 +8,6 @@ keywords: Ultralytics HUB, YOLO models, train YOLO, YOLOv5, YOLOv8, YOLO11, obje
 
 <div align="center">
 <a href="https://www.ultralytics.com/hub" target="_blank"><img width="100%" src="https://github.com/ultralytics/docs/releases/download/0/ultralytics-hub.avif" alt="Ultralytics HUB banner"></a>
-<a href="https://docs.ultralytics.com/zh/hub/">中文</a> |
-<a href="https://docs.ultralytics.com/ko/hub/">한국어</a> |
-<a href="https://docs.ultralytics.com/ja/hub/">日本語</a> |
-<a href="https://docs.ultralytics.com/ru/hub/">Русский</a> |
-<a href="https://docs.ultralytics.com/de/hub/">Deutsch</a> |
-<a href="https://docs.ultralytics.com/fr/hub/">Français</a> |
-<a href="https://docs.ultralytics.com/es/hub/">Español</a> |
-<a href="https://docs.ultralytics.com/pt/hub/">Português</a> |
-<a href="https://docs.ultralytics.com/tr/hub/">Türkçe</a> |
-<a href="https://docs.ultralytics.com/vi/hub/">Tiếng Việt</a> |
-<a href="https://docs.ultralytics.com/ar/hub/">العربية</a>
 <br>
 <br>
 
