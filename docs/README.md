@@ -48,6 +48,10 @@ $ pip install tqdm
 ## Graphical Abstract
 <img width="6380" height="1870" alt="1-系统结构图" src="https://github.com/user-attachments/assets/6c7f9486-6cc1-41b6-ab7a-19eb8494d48d" />
 
+## Graphical Abstract2
+<img width="6380" height="1870" alt="System architecture diagram" src="https://github.com/user-attachments/docs/Figure 1. System architecture diagram.png" />
+
+
 ### Model Training
 $ python class_train.py
 
