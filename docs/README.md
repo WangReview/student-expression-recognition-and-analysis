@@ -46,9 +46,6 @@ $ pip install tqdm
 
 # 7、Methodology
 ## Graphical Abstract
-<img width="6380" height="1870" alt="1-系统结构图" src="https://github.com/user-attachments/assets/6c7f9486-6cc1-41b6-ab7a-19eb8494d48d" />
-
-## Graphical Abstract2
 <img width="4007" height="774" alt="Figure 1  System architecture diagram" src="https://github.com/user-attachments/assets/572ae9a0-0a30-47cf-89d3-6404e067396d" />
 
 
